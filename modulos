@@ -1,0 +1,23 @@
+# Un módulo es simplemente un archivo con extensión .py que contiene código de Python (funciones, clases, variables, etc.).
+
+# modulos.py
+
+import os
+
+def borrarPantalla():
+    os.system("cls")
+
+def funcion1():
+    print("Hola desde funcion1")
+
+def funcion2():
+    nombre = input("Nombre: ")
+    apellidos = input("Apellidos: ")
+    return nombre, apellidos
+
+def funcion3(nombre, apellidos):
+    print(f"Nombre: {nombre}")
+    print(f"Apellidos: {apellidos}")
+
+def funcion4(nombre, apellidos):
+    return nombre, apellidos
